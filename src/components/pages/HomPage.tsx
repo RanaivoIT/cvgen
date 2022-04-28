@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import DetailFrom from "../forms/DetailForm"
 import CompetenceList from "../lists/CompetenceList"
 import ExperienceList from "../lists/ExperienceList"
@@ -116,7 +117,7 @@ const HomePage = () => {
                                 </div>
 
                             </div>
-                            <button className="btn btn-outline-success">Généré mon CV</button>
+                            <Link to='/cv' className="btn btn-outline-success">Voir mon CV</Link>
 
                         </>
                     ) : (
